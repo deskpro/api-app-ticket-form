@@ -17,6 +17,7 @@ Refer to the composer website for instructions on how to install composer on you
 Usage
 -----
 
+* Edit config.php to set your DeskPRO API details
 * Upload `api-app-ticket-form` to your web server.
 * Open the `form.html` page in your browser.
 * Submit the form and see it create a new ticket.
