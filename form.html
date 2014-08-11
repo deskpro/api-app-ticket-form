@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet prefetch" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+
+<div class="row">
+    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+		<form role="form" action="process.php" method="POST" enctype="multipart/form-data">
+			<h2>Contact Us <small>Submit your request here.</small></h2>
+			<hr class="colorgraph">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					<div class="form-group">
+                        <input type="text" name="name" id="name" class="form-control input-lg" placeholder="Your Name" tabindex="1">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address" tabindex="4">
+			</div>
+			<div class="form-group">
+				<input type="text" name="subject" id="subject" class="form-control input-lg" placeholder="Subject" tabindex="4">
+			</div>
+			<div class="form-group">
+                <textarea name="message" id="message" class="form-control input-lg" placeholder="message" tabindex="4"></textarea>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					<span class="button-checkbox">
+                        <input name="attach" type="file"/>
+					</span>
+				</div>
+			</div>
+			
+			<hr class="colorgraph">
+			<div class="row">
+				<div class="col-xs-12 col-md-12"><input type="submit" value="Submit" class="btn btn-primary btn-block btn-lg" tabindex="7"></div>
+			</div>
+		</form>
+	</div>
+</div>
+</div>
+    </body>
+</html>
