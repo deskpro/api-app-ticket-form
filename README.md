@@ -8,7 +8,7 @@ Download dependencies with composer
 
 This example uses composer to install the DeskPRO PHP API library. Run the `install` command from the project directory to install them:
 
-    cd path/to/api-app-ticket-pdfs
+    cd path/to/api-app-ticket-form
     php composer.phar install
 
 Refer to the composer website for instructions on how to install composer on your computer:
